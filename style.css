@@ -3,3 +3,8 @@
         width: 50%;
     }
 }
+
+
+.carousel-inner img {
+    margin: auto;
+  }
