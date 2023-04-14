@@ -24,3 +24,7 @@
 {
     background: url(background1.png);
 }
+
+.btn:hover{
+    animation: reverse;
+}
