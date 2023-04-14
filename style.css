@@ -8,3 +8,19 @@
 .carousel-inner img {
     margin: auto;
   }
+
+.bread
+{
+    text-decoration: none;
+    color: white;
+}
+
+.bread:hover
+{
+    color: skyblue;
+}
+
+.main
+{
+    background: url(background1.png);
+}
