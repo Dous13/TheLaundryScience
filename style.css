@@ -38,3 +38,13 @@
 .service:hover{
     color: #212529;
 }
+
+.terms{
+    text-decoration: none;
+    color: #212529;
+}
+
+.terms:hover{
+    text-decoration: underline;
+    color: #212529;
+}
