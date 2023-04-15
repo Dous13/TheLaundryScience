@@ -29,3 +29,12 @@
 .btn:hover{
     animation: reverse;
 }
+
+.service{
+    text-decoration: none;
+    color: #212529;
+}
+
+.service:hover{
+    color: #212529;
+}
