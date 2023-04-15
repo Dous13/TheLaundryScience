@@ -12,7 +12,8 @@
 .bread
 {
     text-decoration: none;
-    color: white;
+    color: #212529;
+    font-weight: bold;
 }
 
 .bread:hover
@@ -22,7 +23,7 @@
 
 .main
 {
-    background: url(background1.png);
+    background: url();
 }
 
 .btn:hover{
