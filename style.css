@@ -160,3 +160,12 @@
 .contact-social{
     font-size: xx-large;
 }
+
+.contact-social:hover{
+    transition: all 0.2s ease-in;
+    font-size: xxx-large;
+}
+
+.contact-social:not(:hover){
+    transition: all 0.2s ease-out;
+}
