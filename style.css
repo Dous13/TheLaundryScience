@@ -121,7 +121,7 @@
 }
 
 .prices:hover{
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 
     color: #212529;
     font-size: x-large;
@@ -129,6 +129,34 @@
 }
 
 .prices:not(:hover){
-    transition: all 0.5s ease-out;
+    transition: all 0.2s ease-out;
 }
 
+.contact-body:hover .contact-img{
+    font-size: xxx-large;
+    transition: all 0.2s ease-in;
+    
+}
+
+.contact-img:not(:hover){
+    transition: all 0.2s ease-out;
+}
+
+.contact-faq{
+    color: #212529;
+    text-decoration: none;
+}
+
+.contact-faq:hover{
+    transition: all 0.2s ease-in;
+    color: #212529;
+    text-decoration: underline;
+}
+
+.contact-faq:not(:hover){
+    transition: all 0.2s ease-out;    
+}
+
+.contact-social{
+    font-size: xx-large;
+}
