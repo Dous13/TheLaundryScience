@@ -121,15 +121,15 @@
 }
 
 
-.prices:hover{
+.pricecard:hover .prices{
     transition: all 0.2s ease-in;
-
     color: #212529;
     font-size: x-large;
     font-weight: bold;
+    text-decoration: underline;
 }
 
-.prices:not(:hover){
+.pricecard:not(:hover){
     transition: all 0.2s ease-out;
 }
 
@@ -170,4 +170,3 @@
 .contact-social:not(:hover){
     transition: all 0.2s ease-out;
 }
-
