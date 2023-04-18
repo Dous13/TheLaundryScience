@@ -49,109 +49,104 @@
         </span>
     </div>
 
+    
     <section id="people" class="p-5 bg-white">
-        <div class="container">
-            <h2 class="text-center text-white">Contact Us</h2>
-                <div class="row row-cols-2">
+        <form action="process-form.php" method="post">
+            <div class="container">
+                <h2 class="text-center text-white">Contact Us</h2>
+                    <div class="row row-cols-2">
+                            <div class="col-md-3 col-lg-6">
+                                <div class="card bg-white text-dark">
+                                    <div class="contact-body card-body text-right g-3">
+                                        <div class="contact-img h1 mb-3">
+                                            <i class="bi bi-geo"></i>
+                                        </div>
+                                        <h3 class="card-title mb-3">
+                                            Our Address:
+                                        </h3>
+                                        <p class="card-text">
+                                            The Laundry Science, Larena Drive Dumaguete City, 6200, Negros Oriental, Philippines.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        <div class="col-md-3 col-lg-6">
+                            <label for="name" class="lead fw-bold">Name</label>
+                            <div class="input-group mb-4">
+                                <input name="name" id="name" type="text" aria-label="Name" class="form-control">
+                            </div>
+                            <label for="email" class="lead fw-bold">Email</label>
+                            <div class="input-group">
+                                <input name="email" id="email" type="text" aria-label="Email" class="form-control">
+                            </div>
+                        </div>
+    
                         <div class="col-md-3 col-lg-6">
                             <div class="card bg-white text-dark">
-                                <div class="contact-body card-body text-right g-3">
+                                <div class="contact-body card-body text-right">
                                     <div class="contact-img h1 mb-3">
-                                        <i class="bi bi-geo"></i>
+                                        <i class="bi bi-telephone"></i>
                                     </div>
                                     <h3 class="card-title mb-3">
-                                        Our Address:
+                                        Call Us:
                                     </h3>
                                     <p class="card-text">
-                                        The Laundry Science, Larena Drive Dumaguete City, 6200, Negros Oriental, Philippines.
+                                        0923 567 0945 | 422-6789
                                     </p>
                                 </div>
                             </div>
                         </div>
-
-                    <div class="col-md-3 col-lg-6">
-                        <p class="lead fw-bold">
-                            Name
-                        </p>
-                        <div class="input-group mb-4">
-                            <input type="text" aria-label="First name" class="form-control">
-                        </div>
-                        <p class="lead fw-bold"> 
-                            Phone
-                        </p>
-                        <div class="input-group">
-                            <input type="text" aria-label="Last name" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-6">
-                        <div class="card bg-white text-dark">
-                            <div class="contact-body card-body text-right">
-                                <div class="contact-img h1 mb-3">
-                                    <i class="bi bi-telephone"></i>
-                                </div>
-                                <h3 class="card-title mb-3">
-                                    Call Us:
-                                </h3>
-                                <p class="card-text">
-                                    0923 567 0945 | 422-6789
-                                </p>
+    
+                        <div class="col-md-3 col-lg-6">
+                            <label for="subject" class="lead fw-bold">Subject</label>
+                            <div class="input-group">
+                                <input name="subject" id="subject" type="text" aria-label="Email" class="form-control">
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-6">
-                        <p class="lead fw-bold"> 
-                            Email
-                        </p>
-                        <div class="input-group">
-                            <input type="text" aria-label="Email" class="form-control">
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-lg-6">
-                        <div class="card bg-white text-dark">
-                            <div class="contact-body card-body text-right">
-                                <div class="contact-img h1 mb-3">
-                                    <i class="bi bi-question-circle-fill"></i>
+    
+                        <div class="col-md-3 col-lg-6">
+                            <div class="card bg-white text-dark">
+                                <div class="contact-body card-body text-right">
+                                    <div class="contact-img h1 mb-3">
+                                        <i class="bi bi-question-circle-fill"></i>
+                                    </div>
+                                    <h3 class="card-title mb-3">
+                                        Have Any Questions?
+                                    </h3>
+                                    <p class="card-text">
+                                        TheLaundryScience2023@gmail.com
+                                    </p>
+                                    <p class="card-text">
+                                        <a href="#FAQ" class="contact-faq">Visit Our FAQ</a>
+                                    </p>
                                 </div>
-                                <h3 class="card-title mb-3">
-                                    Have Any Questions?
-                                </h3>
-                                <p class="card-text">
-                                    TheLaundryScience2023@gmail.com
-                                </p>
-                                <p class="card-text">
-                                    <a href="#FAQ" class="contact-faq">Visit Our FAQ</a>
-                                </p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-3 col-lg-6">
-                        <p class="lead fw-bold"> 
-                            Message
-                        </p>
-                        <div class="input-group">
-                            <textarea class="form-control" rows="6.7" aria-label="With textarea">Message</textarea>
-                          </div>
-                    </div>
-                    <div class="col-md-3 col-lg-6">
-                            <span class="p-2">
-                                <a href="#" class="contact-social"><i class="bi bi-facebook text-dark mx-1"></i></a>
-                            </span >
-                            <span class="p-2">
-                                <a href="#" class="contact-social"><i class="bi bi-instagram text-dark mx-1"></i></a>
-                            </span>
-                            <span class="p-2">
-                                <a href="#" class="contact-social"><i class="bi bi-twitter text-dark mx-1"></i></a>
-                            </span>
-                    </div>
-
-                    <div class="col-md-3 col-lg-6">
-                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <div class="col-md-3 col-lg-6">
+                            <label for="message" class="lead fw-bold">Message</label>
+                            <div class="input-group">
+                                <textarea name="message" id="message" class="form-control" rows="6.7" aria-label="With textarea">Message</textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-6">
+                                <span class="p-2">
+                                    <a href="#" class="contact-social"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                                </span >
+                                <span class="p-2">
+                                    <a href="#" class="contact-social"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                                </span>
+                                <span class="p-2">
+                                    <a href="#" class="contact-social"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                                </span>
+                        </div>
+    
+                        <div class="col-md-3 col-lg-6">
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
                     </div>
                 </div>
-            </div>
+        </form>
     </section>
 
     <footer class="p-5 bg-dark text-light text-center position-relative mt-5">
