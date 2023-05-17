@@ -1,12 +1,9 @@
 <?php
 
-$user = $_POST['user'];
-$pass = $_POST['pass'];
+if(isset($_POST['username']) && isset($_POST['password'] ){
+    $username = $_POST['username'];
+    $password = $_POST['password'];
 
-$con = new mysqli("localhost", "root","login");
-if($con->connect_error){
-    die("failed to connect" .$con->connect_error);
-}
-else{
-    $stmt = $con->prepare("select * ");
+}else{
+    header("Location: login.php");
 }
