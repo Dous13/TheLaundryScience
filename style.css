@@ -129,7 +129,7 @@
     text-decoration: underline;
 }
 
-.pricecard:not(:hover){
+.pricecard:not(:hover) .prices{
     transition: all 0.2s ease-out;
 }
 
