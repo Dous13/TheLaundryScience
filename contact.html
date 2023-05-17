@@ -132,7 +132,12 @@
                         <div class="col-md-3 col-lg-6">
                             <label for="subject" class="lead fw-bold">Subject</label>
                             <div class="input-group">
-                                <input name="subject" id="subject" type="text" aria-label="Email" class="form-control">
+                                <select class="mt-1 form-select" aria-label="Subject" name="subject">
+                                    <option selected>Booking</option>
+                                    <option value="1">Suggestion</option>
+                                    <option value="2">Complain</option>
+                                    <option value="3">Other</option>
+                                  </select>
                             </div>
                         </div>
     
@@ -173,7 +178,7 @@
                         </div>
     
                         <div class="col-md-3 col-lg-6">
-                            <button class="btn btn-primary">Submit</button>
+                            <button class="mt-2 btn btn-primary">Submit</button>
                         </div>
                     </div>
                 </div>
