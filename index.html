@@ -28,7 +28,7 @@
             <form action="login.php" method="post">
               <div class="row align-items-center">
                 <div class="header-text mb-4">
-                     <h2>The laundry Science</h2>
+                     <h2><i class="bi bi-droplet-half"></i>The laundry Science</h2>
                      <p>Hello.</p>
                 </div>
                 <div class="input-group mb-3">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="input-group mb-3">
-                    <a href="home.html" class="login btn btn-lg btn-primary w-100 fs-6">Login</a>
+                  <input class="btn btn-primary" type="button" value="Login" onClick="pasuser(this.form)">
                 </div>
                 <div class="row">
                     <small>Don't have account? <a href="#">Sign Up</a></small>
@@ -70,7 +70,18 @@
       } else {
         show.type = "password";
       }
-}
+      }
+
+      function pasuser(form) {
+        if (form.user.value=="admin") { 
+        if (form.password.value=="12345") {              
+          location="home.html" 
+        } else {
+          alert("Invalid Password")
+        }
+        } else {  alert("Invalid UserID")
+        }
+      }
     </script>
   </body>
 </html>
